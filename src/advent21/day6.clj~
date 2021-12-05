@@ -1,0 +1,11 @@
+(require '[clojure.string :as str])
+
+(def sample
+  (->>
+""
+str/split-lines))
+
+(def input
+  (->> "input_6.txt"
+       slurp
+       str/split-lines))
