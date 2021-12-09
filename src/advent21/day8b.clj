@@ -79,5 +79,3 @@
      (map decode)
      (map #(Integer/parseInt %))
      (apply +))
-Marker does not point anywhere
-x
